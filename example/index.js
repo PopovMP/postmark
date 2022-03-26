@@ -29,8 +29,7 @@ const email = configGet('fromEmail')
 /** @type { MailModel } */
 const mail = {
 	to     : email,
-	from   : email,  // Optional. Set from config if missing.
-	tag    : 'TEST', // Optional. Helps to sort mails in PostMark
+	tag    : 'TEST', // Optional. Helps to sort mails in Postmark
 	subject: 'Test email subject',
 	message: 'Test email body.',
 }

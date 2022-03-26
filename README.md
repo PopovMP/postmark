@@ -12,7 +12,6 @@ const { sendMail } = require('@popovmp/postmark')
 // Email model
 const mail = {
 	to     : 'john@example.com',
-	from   : 'doe@example.com',  // Optional. Set from config if missing.
 	tag    : 'Foo',              // Optional. Helps to sort mails in PostMark
 	subject: 'Test email subject',
 	message: 'Test email body.',
