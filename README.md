@@ -76,4 +76,4 @@ The `emailDriver` can be `log` or `postmark`.
 
 `micro-logger` https://www.npmjs.com/package/@popovmp/micro-logger
 
-Copyright Miroslav Popov @ 2022
+Copyright @ 2022 Miroslav Popov
