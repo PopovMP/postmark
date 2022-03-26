@@ -1,0 +1,7 @@
+{
+  "loggerLogPath": "./log.txt",
+  "loggerOptions": { "tee": true, "suppress": [] },
+  "postmarkToken": "",
+  "emailDriver"  : "log",
+  "fromEmail"    : "John Doe <john@example.com>"
+}

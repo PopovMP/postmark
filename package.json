@@ -1,0 +1,25 @@
+{
+  "name": "@popovmp/postmark",
+  "version": "1.0.0",
+  "description": "Sends emails via Postmark or logs them locally",
+  "main": "index.js",
+  "author": "Popov MP <info@forexsb.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/popovmp/postmark",
+  "dependencies": {
+    "@popovmp/micro-logger": "^1.7.0",
+    "@popovmp/config-json": "^1.2.0",
+    "@popovmp/request-service": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PopovMP/postmark.git"
+  },
+  "keywords": [
+    "email",
+    "postmark"
+  ],
+  "bugs": {
+    "url": "https://github.com/popovmp/request-service/issues"
+  }
+}

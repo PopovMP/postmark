@@ -1,0 +1,4 @@
+.idea
+node_modules
+example/config-local.json
+example/log.txt
