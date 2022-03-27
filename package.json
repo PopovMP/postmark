@@ -1,6 +1,6 @@
 {
   "name": "@popovmp/postmark",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sends emails via Postmark or logs them locally",
   "main": "index.js",
   "author": "Popov MP <info@forexsb.com>",
