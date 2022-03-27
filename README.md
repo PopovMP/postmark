@@ -42,9 +42,9 @@ Example of `config.json` or `config-local.json`
 ```json
 {
   "loggerLogPath": "./log.txt",
-  "loggerOptions": { "tee": true, "suppress": [] },
-  "postmarkToken": "",
-  "emailDriver"  : "log",
+  "loggerOptions": { "tee": false, "suppress": ["debug"] },
+  "postmarkToken": "set-your-post-mark-app-token-here",
+  "emailDriver"  : "postmark",
   "fromEmail"    : "John Doe <john@example.com>"
 }
 ```
